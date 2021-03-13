@@ -4,7 +4,7 @@
     "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "http://localhost:41390",
-      "sslPort": 44361
+      "sslPort": 41391
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "SDL_WikiRepoService": {
+    "SDL_WikiDocumentService": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

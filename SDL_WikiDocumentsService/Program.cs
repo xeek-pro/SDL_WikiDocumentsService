@@ -1,13 +1,8 @@
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using SDL_WikiDocumentLibrary;
 
-namespace SDL_WikiRepoService
+namespace SDL_WikiDocumentsService
 {
     public class Program
     {

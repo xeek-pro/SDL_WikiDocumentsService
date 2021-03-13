@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  sdl_wikidocumentsservice:
+    image: ${DOCKER_REGISTRY-}sdlwikidocumentsservice
+    build:
+      context: .
+      dockerfile: SDL_WikiDocumentsService/Dockerfile
+    volumes:
+      - //d/SdlRepository:/SdlRepository:rw  

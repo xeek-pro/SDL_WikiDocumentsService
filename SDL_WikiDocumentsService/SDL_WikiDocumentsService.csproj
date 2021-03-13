@@ -8,11 +8,12 @@
     <Company>Xeeworx</Company>
     <Copyright>Copyright 2021 John Tullos</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.0.7" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,6 +21,10 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SDL_WikiDocumentLibrary\SDL_WikiDocumentLibrary.csproj" />
   </ItemGroup>
 
 </Project>
